@@ -1,0 +1,25 @@
+{
+  "name": "node-zeroMQ",
+  "version": "1.0.0",
+  "description": "Hello world repo for ZeroMQ interaction with Node",
+  "main": "index.js",
+  "scripts": {
+    "server": "ts-node src/server.ts",
+    "client": "ts-node src/client.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ammanpashasc/node-zeroMQ.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ammanpashasc/node-zeroMQ/issues"
+  },
+  "homepage": "https://github.com/ammanpashasc/node-zeroMQ#readme",
+  "dependencies": {
+    "zeromq": "^5.2.8"
+  }
+}
